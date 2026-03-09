@@ -3,7 +3,7 @@ Disposes de 60 segons per aconseguir la màxima puntuació possible, quan vegis 
 
 PER DESCARREGAR (copia de comanda en comanda al CMD/Powershell) 
 --------------------------------------------
-git clone https://github.com/Rop0es/reflex-game.git
+git clone https://github.com/Rop0es/ReflexGame.git
 
 cd reflex-game
 
