@@ -4,7 +4,9 @@ Disposes de 60 segons per aconseguir la màxima puntuació possible, quan vegis 
 PER DESCARREGAR (copia de comanda en comanda al CMD/Powershell) 
 --------------------------------------------
 git clone https://github.com/Rop0es/reflex-game.git
+
 cd reflex-game
+
 docker-compose up -d (dins de la carpeta on s'hagi fet el git clone)
 
 Nota: Assegura't de tenir Docker Desktop instal·lat abans de començar.
