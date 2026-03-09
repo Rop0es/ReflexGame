@@ -1,0 +1,26 @@
+services:
+  app:
+    build: .
+    ports:
+      - "9443:8080"
+    depends_on:
+      - db
+    environment:
+      - DB_HOST=db
+
+  db:
+    image: mariadb:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: juego_db
+    volumes:
+      - ./mysql_data:/var/lib/mysql  # AQUÍ se guardan tus puntos para siempre
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    ports:
+      - "8081:80"
+    environment:
+      - PMA_ARBITRARY=1
+      - DB_HOST=db
