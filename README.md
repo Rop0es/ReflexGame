@@ -5,7 +5,7 @@ PER DESCARREGAR (copia de comanda en comanda al CMD/Powershell)
 --------------------------------------------
 git clone https://github.com/Rop0es/ReflexGame.git
 
-cd reflex-game
+cd ReflexGame
 
 docker-compose up -d (dins de la carpeta on s'hagi fet el git clone)
 
